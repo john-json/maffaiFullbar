@@ -17,14 +17,14 @@ local menu_indicator =
                 color = colors.quicksilver,
                 string = "􀺉",
                 font = {
-                    size = 14,
+                    size = 10,
                     style = settings.font.style_map.Bold
                 }
             },
             background = {
                 drawing = true,
                 color = colors.bar.bg,
-                corner_radius = 6,
+                corner_radius = 8,
 
             }
         }
@@ -49,41 +49,6 @@ menu_indicator:subscribe(
                 )
             end
         )
-        -- Animate the menu items when they show up
-        for i = 1, max_items do
-            local menu_item = menu_items[i]
-            if menu_item:query().geometry.drawing == "on" then
-                sbar.animate(
-                    "elastic",
-                    15,
-                    function()
-                        menu_item:set(
-                            {
-                                width = "dynamic",
-                                background = {
-                                    color = {
-                                        alpha = 1
-                                    }
-                                },
-                                label = {
-                                    color = colors.bar.bg,
-                                    font = {
-                                        size = 12,
-                                        style = settings.font.style_map.SemiBold
-                                    }
-                                },
-                                icon = {
-                                    color = icons.bar.bg,
-                                    font = {
-                                        size = 30
-                                    }
-                                }
-                            }
-                        )
-                    end
-                )
-            end
-        end
     end
 )
 menu_indicator:subscribe(
@@ -112,7 +77,7 @@ menu_indicator:subscribe(
                             padding_right = 3,
                             color = colors.bar.foreground_alt,
                             font = {
-                                size = 14,
+                                size = 10,
                                 style = settings.font.style_map.Bold
                             }
                         },

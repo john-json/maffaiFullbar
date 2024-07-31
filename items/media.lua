@@ -12,7 +12,7 @@ local function setup_media_items()
         display = 1,
         bar = "right_bar",
         background = {
-            border_width = 3,
+            border_width = 0,
             border_color = colors.bar.border,
             color = colors.bar.bg2,
         },
@@ -28,7 +28,7 @@ local function setup_media_items()
             padding_right = 10,
             drawing = true,
             string = "",
-            color = colors.green
+            color = colors.quicksilver
         },
         drawing = true,
         updates = true,

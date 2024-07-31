@@ -17,7 +17,7 @@ local cal =
                 padding_right = 10,
                 padding_left = 5,
                 background = {
-                    corner_radius = 50,
+                    corner_radius = 25,
                     color = colors.bar.bg2,
                     height = 24
 
@@ -43,7 +43,7 @@ local cal =
             background = {
                 border_width = 0,
                 border_color = colors.bar.border,
-                corner_radius = 50,
+                corner_radius = 8,
 
                 -- color = colors.bar.transparent,
                 color = colors.bar.bg2
@@ -63,7 +63,7 @@ cal:subscribe(
     function(env)
         cal:set(
             {
-                icon = os.date("%a %d  􀜞"),
+                icon = os.date("%a %d  "),
                 label = os.date("%H:%M")
                 -- icon = os.date("%a.%d %b. %H"),
             }

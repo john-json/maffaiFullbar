@@ -27,7 +27,6 @@ return {
     nickel              = 0xff6b7c6b,
     nickelblu           = 0xff657378,
     auro                = 0xff6f797c,
-    deep                = 0xff4a5b6b,
     puce                = 0xffa9645d,
     pastel              = 0xffcfcdca,
     olive               = 0xff3a3a3a,

@@ -79,7 +79,7 @@ local wifi_icon =
 			position = "right",
 			icon = {
 				string = icons.wifi.connected,
-				color = colors.red,
+				color = colors.quicksilver,
 
 			},
 
@@ -109,7 +109,7 @@ local wifi_bracket = sbar.add("bracket", "widgets.wifi.bracket", {
 }, {
 	display = 1,
 	background = {
-		corner_radius = 25,
+		corner_radius = 8,
 
 		color = colors.bar.bg2
 	},

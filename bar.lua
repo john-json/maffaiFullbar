@@ -6,13 +6,13 @@ sbar.bar(
     {
 
         topmost = "window",
-        height = 40,
+        height = 38,
         color = colors.bar.bg,
         padding_right = 0,
         padding_left = 0,
-        margin = 50,
-        corner_radius = 8,
-        y_offset = 8,
+        margin = 80,
+        corner_radius = 12,
+        y_offset = 10,
         shadow = true,
         blur_radius = 10,
     }

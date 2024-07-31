@@ -12,11 +12,11 @@ local cpu = sbar.add("graph", "cpu", 42, {
     graph = { color = colors.yellow },
     background = {
         color = colors.bar.bg2,
-        corner_radius = 25,
+        corner_radius = 8,
         drawing = true,
     },
     icon = {
-        color = colors.blue,
+        color = colors.quicksilver,
         string = icons.cpu,
         padding_right = 15,
         padding_left = 10,

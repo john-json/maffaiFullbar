@@ -62,7 +62,7 @@ sbar.add(
     {
         background = {
             alpha = 1,
-            corner_radius = 50,
+            corner_radius = 8,
             color = colors.bar.bg2
         }
     }
@@ -89,7 +89,8 @@ local function update_menus(env)
             )
             menu:set(
                 {
-                    drawing = true
+                    drawing = true,
+
                 }
             )
             local id = 1
@@ -98,7 +99,7 @@ local function update_menus(env)
                     menu_items[id]:set(
                         {
                             label = menu,
-                            drawing = true
+                            drawing = true,
                         }
                     )
                 else
@@ -120,13 +121,15 @@ space_menu_swap:subscribe(
         if drawing then
             menu_watcher:set(
                 {
-                    updates = false
+                    updates = false,
+
                 }
             )
             sbar.set(
                 "/apple\\..*/",
                 {
-                    drawing = true
+                    drawing = true,
+
                 }
             )
 

@@ -6,16 +6,16 @@ local app_icons = require("helpers.app_icons")
 local space_colors = {
 
 
-	colors.nickel,  -- Color for space 1
-	colors.rocket,  -- Color for space 2
-	colors.puce,    -- Color for space 4
-	colors.magenta, -- Color for space 5
-	colors.deep,    -- Color for space 6
-	colors.nickelblue, -- Color for space 7
-	colors.auro,    -- Color for space 8
-	colors.rocket,  -- Color for space 9
-	colors.pastel,  --Color for Space 10
-	colors.orange,  -- Color for space 0
+	colors.quicksilver, -- Color for space 1
+	colors.rocket,   -- Color for space 2
+	colors.deeptaupe, -- Color for space 3
+	colors.puce,     -- Color for space 4
+	colors.magenta,  -- Color for space 5
+	colors.nickelblu, -- Color for space 6
+	colors.olive,    -- Color for space 7
+	colors.rocket,   -- Color for space 8
+	colors.pastel,   --Color for Space 9
+	colors.orange,   -- Color for space 10
 
 
 
@@ -71,7 +71,7 @@ for i = 1, 10, 1 do
 			padding_right = 5,
 		},
 		background = {
-			corner_radius = 25,
+			corner_radius = 4,
 		},
 	})
 	spaces[i] = space
@@ -84,16 +84,16 @@ for i = 1, 10, 1 do
 				icon = {
 					string = selected and getSpaceIcon(i, true) or getSpaceIcon(i, false),
 					color = selected and colors.foreground_dark or colors.transparent,
-					padding_left = selected and 6 or 3,
-					padding_right = selected and 6 or 3,
+					padding_left = selected and 6 or 2,
+					padding_right = selected and 6 or 2,
 					font = { size = selected and 12 or 10 },
 				},
 				background = {
 					y_offset = 0,
-					padding_left = selected and 10 or 12,
-					padding_right = selected and 10 or 12,
+					padding_left = selected and 10 or 14,
+					padding_right = selected and 10 or 14,
 					drawing = true,
-					height = selected and 18 or 7,
+					height = selected and 18 or 10,
 					color = getSpaceColor(i)
 
 				},
@@ -131,16 +131,16 @@ for i = 1, 10, 1 do
 				icon = {
 					string = selected and getSpaceIcon(i, true) or getSpaceIcon(i, false),
 					color = selected and colors.foreground_dark or colors.transparent,
-					padding_left = selected and 6 or 3,
-					padding_right = selected and 6 or 3,
+					padding_left = selected and 6 or 2,
+					padding_right = selected and 6 or 2,
 					font = { size = selected and 12 or 10 },
 				},
 				background = {
 					y_offset = 0,
-					padding_left = selected and 10 or 12,
-					padding_right = selected and 10 or 12,
+					padding_left = selected and 10 or 14,
+					padding_right = selected and 10 or 14,
 					drawing = true,
-					height = selected and 18 or 7,
+					height = selected and 18 or 10,
 					color = getSpaceColor(i)
 
 				},
@@ -170,7 +170,7 @@ end
 sbar.add("bracket", space_names, {
 
 	background = {
-		height = 26,
+		height = 28,
 		corner_radius = 25,
 		color = colors.bar.bg2,
 		width = "dynamic"

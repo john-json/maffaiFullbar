@@ -13,7 +13,7 @@ local front_app = sbar.add("item", "front_app", {
     background = {
         padding_right = 10,
         padding_left = 10,
-        corner_radius = 6,
+        corner_radius = 8,
         color = colors.bar.bg,
     },
     label = {
@@ -48,7 +48,7 @@ front_app:subscribe("mouse.entered", function(env)
             background = {
                 padding_right = 10,
                 padding_left = 10,
-                corner_radius = 6,
+                corner_radius = 8,
                 color = colors.bar.bg,
             },
             label = {

@@ -45,7 +45,7 @@ local volume_icon =
             },
             label = {
                 align = "right",
-                color = colors.magenta,
+                color = colors.quicksilver,
             }
             -- click_script = "osascript $CONFIG_DIR/items/scripts/openSoundMenu.scpt"
         }
@@ -62,7 +62,7 @@ local volume_bracket =
             padding_right = 10,
 
             background = {
-                color = colors.bar.bg
+                color = colors.bar.bg2
             },
             popup = {
                 align = "right"
@@ -88,7 +88,7 @@ local volume_slider =
                 highlight_color = colors.white,
                 y_offset = 5,
                 background = {
-                    corner_radius = 10,
+                    corner_radius = 8,
                     height = 17,
 
                     color = colors.icon_active,
