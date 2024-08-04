@@ -42,7 +42,7 @@ apple:subscribe("mouse.entered", function(env)
 				string = icons.apple,
 				padding_left = 10,
 				font = {
-					size = 14,
+					size = 16,
 				},
 			},
 			icon = {
@@ -103,7 +103,7 @@ apple:subscribe("mouse.clicked", function(env)
 				drawing = true,
 				padding_left = 8,
 				font = {
-					size = 14,
+					size = 16,
 				},
 				string = icons.apple,
 				color = colors.icon_active,

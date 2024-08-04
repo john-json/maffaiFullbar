@@ -63,6 +63,7 @@ local terminal =
 				font = { size = 12,
 				},
 				padding_left = 5,
+				padding_right = 5,
 				string = "􀁗",
 				color = colors.quicksilver,
 

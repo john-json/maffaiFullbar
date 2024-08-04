@@ -67,11 +67,11 @@ for i = 1, 10, 1 do
 		position = "left",
 		label = { drawing = false },
 		icon = {
-			padding_left = 5,
-			padding_right = 5,
+			padding_left = 8,
+			padding_right = 8,
 		},
 		background = {
-			corner_radius = 4,
+			corner_radius = 25,
 		},
 	})
 	spaces[i] = space
@@ -84,17 +84,19 @@ for i = 1, 10, 1 do
 				icon = {
 					string = selected and getSpaceIcon(i, true) or getSpaceIcon(i, false),
 					color = selected and colors.foreground_dark or colors.transparent,
-					padding_left = selected and 6 or 2,
-					padding_right = selected and 6 or 2,
+					padding_left = selected and 4 or 6,
+					padding_right = selected and 4 or 6,
 					font = { size = selected and 12 or 10 },
 				},
 				background = {
+					border_width = selected and 2 or 1,
+					border_color = getSpaceColor(i),
 					y_offset = 0,
-					padding_left = selected and 10 or 14,
-					padding_right = selected and 10 or 14,
+					padding_left = selected and 12 or 10,
+					padding_right = selected and 12 or 10,
 					drawing = true,
-					height = selected and 18 or 10,
-					color = getSpaceColor(i)
+					height = selected and 16 or 14,
+					color = colors.transparent,
 
 				},
 
@@ -131,17 +133,19 @@ for i = 1, 10, 1 do
 				icon = {
 					string = selected and getSpaceIcon(i, true) or getSpaceIcon(i, false),
 					color = selected and colors.foreground_dark or colors.transparent,
-					padding_left = selected and 6 or 2,
-					padding_right = selected and 6 or 2,
+					padding_left = selected and 4 or 6,
+					padding_right = selected and 4 or 6,
 					font = { size = selected and 12 or 10 },
 				},
 				background = {
+					border_width = selected and 2 or 1,
+					border_color = getSpaceColor(i),
 					y_offset = 0,
-					padding_left = selected and 10 or 14,
-					padding_right = selected and 10 or 14,
+					padding_left = selected and 8 or 10,
+					padding_right = selected and 8 or 10,
 					drawing = true,
-					height = selected and 18 or 10,
-					color = getSpaceColor(i)
+					height = selected and 18 or 14,
+					color = colors.transparent,
 
 				},
 			})
@@ -170,8 +174,7 @@ end
 sbar.add("bracket", space_names, {
 
 	background = {
-		height = 28,
-		corner_radius = 25,
+
 		color = colors.bar.bg2,
 		width = "dynamic"
 

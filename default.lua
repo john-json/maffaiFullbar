@@ -28,8 +28,8 @@ sbar.default(
 			shadow = true,
 			border_width = 0.5,
 			border_color = colors.bar.border,
-			height = 32,
-			corner_radius = 8,
+			height = 35,
+			corner_radius = 10,
 
 			image = {
 				corner_radius = 8
