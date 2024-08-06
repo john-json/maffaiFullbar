@@ -19,7 +19,7 @@
 * Dynamic animation system
 * Powerful scripting and *event* system
 * Optimized to be fast and *efficient
-* Interactive mouse suppor
+* Interactive mouse support
 * Support for displaying macOS menu bar apps
 * Can draw arbitrary graphs
 * On-demand popup menus
