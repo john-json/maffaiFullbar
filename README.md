@@ -1,4 +1,5 @@
-<h1 align=center>Maffai fullbar for sketchybar lua</h1>
+<h1 align=center>Maffai</h1>
+<h3 align=center>fullbar for sketchybar lua</h3>
 
 <p align="center">
 <a href="https://felixkratz.github.io/SketchyBar/setup">Install</a>
