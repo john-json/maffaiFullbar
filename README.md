@@ -6,7 +6,7 @@
 <span> • </span>
 <a href="https://felixkratz.github.io/SketchyBar/config/bar">Documentation</a> 
 <span> • </span> 
-<a href="https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top">Setups</a>
+<a href="https://github.com/FelixKratz/SketchyBar/discussions/47?sort=top">Other community Setups</a>
 <span> • </span> 
 <a href="https://github.com/FelixKratz/SketchyBar/discussions/12?sort=top">Plugins</a>
 </p>
