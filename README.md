@@ -10,7 +10,7 @@
 <a href="https://github.com/FelixKratz/SketchyBar/discussions/12?sort=top">Plugins</a>
 </p>
 
-
+[maffai](https://github.com/john-json/maffaiFullbar/blob/master/Screenshot%20.png?raw=true)
 
 
 ## Features
